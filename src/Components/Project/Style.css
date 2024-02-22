@@ -1,0 +1,48 @@
+.row{
+    padding-inline: 5px;
+    padding-block: 15px;
+}
+
+.left-side-content{
+
+  padding: 5px;
+  overflow-wrap: break-word;
+}
+.project-number{
+    color: rgb(0, 221, 255);
+    text-transform: uppercase;
+}
+.project-name{
+    color: #fff;
+}
+.project-content{
+    color: rgb(84, 83, 83);
+}
+.read-more{
+    color: #fff;
+    word-spacing: 3px;
+}
+.read-more-link{
+    color: #fff;
+    text-decoration: none;
+    word-spacing: 0px;
+    font-size: 13px;
+}
+/*  */
+
+ .right-side div{
+    height: 200px;
+    width: 180px;
+    border-radius: 5px;
+   
+}
+.right-box-1{
+    background-image: url('https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg');
+   
+    float: left;
+}
+.right-box-2{
+    border: 5px rgb(8, 195, 228) solid;
+    margin-top: 15px;
+    margin-left: 15px;
+}

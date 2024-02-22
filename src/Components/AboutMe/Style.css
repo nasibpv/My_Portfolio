@@ -1,0 +1,79 @@
+#about{
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.right-side{
+    width: 50%;
+    display: inline;
+}
+.left-side{
+    overflow-wrap: break-word;
+    width: 50%;
+}
+.button{
+    width: 100%;
+    display:flex ;
+    justify-content:space-around ;
+}
+.right-side div{
+    height: 200px;
+    max-width: 180px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.right-box-1{
+    background-image: url('https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg');
+   
+    float: left;
+}
+.right-box-2{
+    border: 5px rgb(8, 195, 228) solid;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.about-tittle{
+    color: #fff;
+}
+.about-content{
+    color: gray;
+    text-align: start;
+    
+}
+.hire-me-button{
+    background-image: linear-gradient(to right, rgba(0, 255, 255, 0.422) , rgb(98, 4, 175));
+    padding:5px 25px;
+}
+.resume-button{
+    background-color: rgba(128, 128, 128, 0);
+    border:1px rgb(153, 1, 255) solid;
+    padding:5px 25px;
+}
+@media screen  and (max-width:400px) {
+    .right-side div{
+        height: 120px;
+        max-width: 120px;  
+    }
+    .left-side{
+        font-size: 13px;
+    }
+    .about-tittle{
+        margin: 0;
+    }
+    .hire-me-button{
+        padding: 0 7px;
+        font-size: small;
+        font-weight: 300;
+    }
+    .resume-button{
+        padding:0 8px;
+        font-size: small;
+        font-weight: 300;
+    }
+}

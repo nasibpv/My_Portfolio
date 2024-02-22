@@ -1,0 +1,12 @@
+.Navbar-name{
+    color: #fff;
+}
+
+.nav-all-link{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
