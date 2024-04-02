@@ -1,0 +1,90 @@
+{   
+    "name":"Nasib PV",
+    "age":"22",
+    "dob":"21-03-2001",
+    "description":"",
+    "bio":"",
+    "photo":"",
+    "projects":[
+
+        {
+            "id":4,
+            "title":"XinStore",
+            "description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category":"",
+            "github":"",
+            "liverepo":"",
+            "technologies":"React,Redux",
+            "categoryid":106,
+            "date":"01-01-2001",
+            "projectScope":"",
+            "image":[
+                        {
+                        "photo":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+                        },
+                        {
+                            "photo":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+                        },
+                        {
+                            "photo":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+                        },
+                        {
+                            "photo":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+                        }
+                    ],
+            "rating":{"rate":3.9,"count":120}
+            
+        },
+            {
+                "id":1,
+                "title":"",
+                "description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+                "category":"Bags & backpacks",
+                "categoryid":106,
+                "date":"01-01-2001",
+                "image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+                "rating":{"rate":3.9,"count":120}
+                },
+            {
+                "id":2,
+                "title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+                "description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+                "category":"Bags & backpacks",
+                "categoryid":106,
+                "date":"01-01-2001",
+                "image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+                "rating":{"rate":3.9,"count":120}
+                }
+
+],
+"experience":[
+    {
+        "name":"React",
+        "icons":"https://i.postimg.cc/yYq8LDD8/1174949-js-react-js-logo-html-html5-icon.png"
+    },
+    {
+        "name":"HTML 5",
+        "icons":"https://i.postimg.cc/yYq8LDD8/1174949-js-react-js-logo-react-react-native-icon.png"
+    },
+    {
+        "name":"CSS3",
+        "icons":"https://i.postimg.cc/yYq8LDD8/1174949-js-react-js-logo-react-react-native-icon.png"
+    },
+    {
+        "name":"JavaScript",
+        "icons":"https://i.postimg.cc/yYq8LDD8/1174949-js-react-js-logo-react-react-native-icon.png"
+    },
+    {
+        "name":"Node.js",
+        "icons":"https://i.postimg.cc/yYq8LDD8/1174949-js-react-js-logo-react-react-native-icon.png"
+    },
+    {
+        "name":"MongoDB",
+        "icons":"https://i.postimg.cc/yYq8LDD8/1174949-js-react-js-logo-react-react-native-icon.png"
+    },
+    {
+        "name":"Bootstrap",
+        "icons":"https://i.postimg.cc/yYq8LDD8/1174949-js-react-js-logo-react-react-native-icon.png"
+    }
+]
+}
