@@ -1,116 +1,123 @@
-{   
-    "name":"Nasib PV",
-    "age":"22",
-    "dob":"21-03-2001",
-    "description":"",
-    "bio":"",
-    "photo":"https://i.postimg.cc/jdRBbHw3/Whats-App-Image-2024-04-03-at-12-38-34-90029b34.jpg",
-    "projects":[
-
-        {
-            "id":4,
-            "title":"XinStore",
-            "description":"The e-commerce site built with React and Redux. This project features a responsive user interface, cart and wishlist functionalities, and is built with #html5, #css3, #react, and #react-bootstrap.",
-            "category":"",
-            "github":"https://lnkd.in/gs_HsHhV",
-            "liverepo":"https://lnkd.in/gKARR5jh",
-            "technologies":"React,Redux",
-            "categoryid":106,
-            "date":"01-01-2001",
-            "projectScope":"",
-            "image":[
-                        {
-                        "photo":"https://i.postimg.cc/nhnNH6c7/Screenshot-80.png"
-                        },
-                        {
-                            "photo":"https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
-                        },
-                        {
-                            "photo":"https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
-                        },
-                        {
-                            "photo":"https://i.postimg.cc/TwhZzSJx/IMG-20240403-174825.jpg"
-                        }
-                    ],
-            "rating":{"rate":3.9,"count":120}
-            
-        },
-            {
-                "id":1,
-                "title":"",
-                "description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-                "category":"Bags & backpacks",
-                "categoryid":106,
-                "date":"01-01-2001",
-                "image":[
-                    {
-                    "photo":"https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
-                    },
-                    {
-                        "photo":"https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
-                    },
-                    {
-                        "photo":"https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
-                    },
-                    {
-                        "photo":"https://i.postimg.cc/TwhZzSJx/IMG-20240403-174825.jpg"
-                    }
-                ],
-                "rating":{"rate":3.9,"count":120}
-                },
-            {
-                "id":2,
-                "title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-                "description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-                "category":"Bags & backpacks",
-                "categoryid":106,
-                "date":"01-01-2001",
-                "image":[
-                    {
-                    "photo":"https://i.postimg.cc/nhnNH6c7/Screenshot-80.png"
-                    },
-                    {
-                        "photo":"https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
-                    },
-                    {
-                        "photo":"https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
-                    },
-                    {
-                        "photo":"https://i.postimg.cc/TwhZzSJx/IMG-20240403-174825.jpg"
-                    }
-                ],
-                "rating":{"rate":3.9,"count":120}
-                }
-
-],
-"experience":[
-    {
-        "name":"React",
-        "icons":"https://i.postimg.cc/yYq8LDD8/1174949-js-react-js-logo-html-html5-icon.png"
-    },
-    {
-        "name":"HTML 5",
-        "icons":"https://i.postimg.cc/RFgtNcrg/html-icon.png"
-    },
-    {
-        "name":"CSS3",
-        "icons":"https://i.postimg.cc/90zW19Dg/css-icon.png"
-    },
-    {
-        "name":"JavaScript",
-        "icons":"https://i.postimg.cc/Mpfg5Ddj/javascript-programming-language-icon.png"
-    },
-    {
-        "name":"Node.js",
-        "icons":"https://i.postimg.cc/zGwFqHfc/node-js-icon.png"
-    },
-    {
-        "name":"MongoDB",
-        "icons":"https://i.postimg.cc/PqpZPLfH/mongodb-icon.png"
-    },
-    {
-        "name":"Bootstrap",
-        "icons":"https://i.postimg.cc/XJNr9p4X/bootstrap-5-logo-icon.png"
-    }
-]
+{
+	"name": "Nasib PV",
+	"age": "22",
+	"dob": "21-03-2001",
+	"description": "",
+	"bio": "",
+	"photo": "https://i.postimg.cc/jdRBbHw3/Whats-App-Image-2024-04-03-at-12-38-34-90029b34.jpg",
+	"projects": [
+		{
+			"id": 4,
+			"title": "XinStore",
+			"description": "The e-commerce site built with React and Redux. This project features a responsive user interface, cart and wishlist functionalities, and is built with #html5, #css3, #react, and #react-bootstrap.",
+			"category": "",
+			
+			"github": "https://lnkd.in/gs_HsHhV",
+			"liverepo": "https://lnkd.in/gKARR5jh",
+			"technologies": "React,Redux",
+			"categoryid": 106,
+			"date": "01-01-2001",
+			"projectScope": "",
+			"image": [
+				{
+					"photo": "https://i.postimg.cc/nhnNH6c7/Screenshot-80.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/TwhZzSJx/IMG-20240403-174825.jpg"
+				}
+			],
+			"rating": {
+				"rate": 3.9,
+				"count": 120
+			}
+		},
+		{
+			"id": 1,
+			"title": "",
+			"description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+			"category": "Bags & backpacks",
+			"categoryid": 106,
+			"date": "01-01-2001",
+			"image": [
+				{
+					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/TwhZzSJx/IMG-20240403-174825.jpg"
+				}
+			],
+			"rating": {
+				"rate": 3.9,
+				"count": 120
+			}
+		},
+		{
+			"id": 2,
+			"title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+			"description": "Your perfect pack for everyday use and walks in the forest. Stash your laptdescriptiondescription description description  op (up to 15 inches) in the padded sleeve, your everyday",
+			"category": "Bags & backpacks",
+			"categoryid": 106,
+			"date": "01-01-2001",
+			"image": [
+				{
+					"photo": "https://i.postimg.cc/nhnNH6c7/Screenshot-80.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/TwhZzSJx/IMG-20240403-174825.jpg"
+				}
+			],
+			"rating": {
+				"rate": 3.9,
+				"count": 120
+			}
+		}
+	],
+	"experience": [
+		{
+			"name": "React",
+			"icons": "https://i.postimg.cc/yYq8LDD8/1174949-js-react-js-logo-html-html5-icon.png"
+		},
+		{
+			"name": "HTML 5",
+			"icons": "https://i.postimg.cc/RFgtNcrg/html-icon.png"
+		},
+		{
+			"name": "CSS3",
+			"icons": "https://i.postimg.cc/90zW19Dg/css-icon.png"
+		},
+		{
+			"name": "JavaScript",
+			"icons": "https://i.postimg.cc/Mpfg5Ddj/javascript-programming-language-icon.png"
+		},
+		{
+			"name": "Node.js",
+			"icons": "https://i.postimg.cc/zGwFqHfc/node-js-icon.png"
+		},
+		{
+			"name": "MongoDB",
+			"icons": "https://i.postimg.cc/PqpZPLfH/mongodb-icon.png"
+		},
+		{
+			"name": "Bootstrap",
+			"icons": "https://i.postimg.cc/XJNr9p4X/bootstrap-5-logo-icon.png"
+		}
+	]
 }
