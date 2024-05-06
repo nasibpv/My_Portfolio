@@ -4,6 +4,23 @@
 	"dob": "21-03-2001",
 	"description": "",
 	"bio": "",
+	"certificates":[
+		{
+			"certificate":"https://i.postimg.cc/V6qzMM1P/Whats-App-Image-2024-05-06-at-19-50-41-3c5c18f8.jpg"
+		},
+		{
+			"certificate":"https://i.postimg.cc/3rZKxgng/Whats-App-Image-2024-05-06-at-19-50-42-3d80e009.jpg"
+		},
+		{
+			"certificate":"https://i.postimg.cc/CxRY79YN/Whats-App-Image-2024-05-06-at-19-50-39-0deabf23.jpg"
+		},
+		{
+			"certificate":"https://i.postimg.cc/pL3v6kLt/Whats-App-Image-2024-05-06-at-19-50-43-4cf14e73.jpg"
+		},
+		{
+			"certificate":"https://i.postimg.cc/TPmxMmK5/Whats-App-Image-2024-05-06-at-19-50-42-9cfa804b.jpg"
+		}
+	],
 	"photo": "https://i.postimg.cc/jdRBbHw3/Whats-App-Image-2024-04-03-at-12-38-34-90029b34.jpg",
 	"projects": [
 		{
@@ -20,7 +37,8 @@
 			"projectScope": "",
 			"image": [
 				{
-					"photo": "https://i.postimg.cc/nhnNH6c7/Screenshot-80.png"
+					"photo": "https://i.postimg.cc/nhnNH6c7/Screenshot-80.png",
+					"contant":""
 				},
 				{
 					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
