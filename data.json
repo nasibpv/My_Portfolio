@@ -24,6 +24,36 @@
 	"photo": "https://i.postimg.cc/jdRBbHw3/Whats-App-Image-2024-04-03-at-12-38-34-90029b34.jpg",
 	"projects": [
 		{
+			"id": 11,
+			"title": "inArch ",
+			"description": "The civil Management System is a comprehensive software solution designed to streamline administrative tasks, enhance communication, and improve efficiency within educational institutions. This system consists of three main modules: Admin, Staff, and Student, each serving specific roles and functionalities.",
+			"category": "font-end",
+			"github": "https://nasibpv.github.io/inArch/",
+			"liverepo": "https://in-arch-8gtcoacfh-nasib-pvs-projects.vercel.app/",
+			"technologies": "Frontend: HTML, CSS, JavaScript (React.js and vite.js)",
+			"categoryid": 106,
+			"conclusion":"The mless experience for administrators, staff, and students alike.",
+			"date": "26-08-2024",
+			"image": [
+				{
+					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/TwhZzSJx/IMG-20240403-174825.jpg"
+				}
+			],
+			"rating": {
+				"rate": 3.9,
+				"count": 120
+			}
+		},
+		{
 			"id": 4,
 			"title": "XinStore",
 			"description": "The e-commerce site built with React and Redux. This project features a responsive user interface, cart and wishlist functionalities, and is built with #html5, #css3, #react, and #react-bootstrap.",
