@@ -1,0 +1,340 @@
+{
+	"name": "Nasib PV",
+	"age": "22",
+	"dob": "21-03-2001",
+	"description": "",
+	"bio": "",
+	"certificates":[
+		{
+			"certificate":"https://i.postimg.cc/V6qzMM1P/Whats-App-Image-2024-05-06-at-19-50-41-3c5c18f8.jpg"
+		},
+		{
+			"certificate":"https://i.postimg.cc/3rZKxgng/Whats-App-Image-2024-05-06-at-19-50-42-3d80e009.jpg"
+		},
+		{
+			"certificate":"https://i.postimg.cc/CxRY79YN/Whats-App-Image-2024-05-06-at-19-50-39-0deabf23.jpg"
+		},
+		{
+			"certificate":"https://i.postimg.cc/pL3v6kLt/Whats-App-Image-2024-05-06-at-19-50-43-4cf14e73.jpg"
+		},
+		{
+			"certificate":"https://i.postimg.cc/TPmxMmK5/Whats-App-Image-2024-05-06-at-19-50-42-9cfa804b.jpg"
+		}
+	],
+	"photo": "https://i.postimg.cc/jdRBbHw3/Whats-App-Image-2024-04-03-at-12-38-34-90029b34.jpg",
+	"projects": [
+		{
+			"id": 11,
+			"title": "inArch ",
+			"description": "The civil Management System is a comprehensive software solution designed to streamline administrative tasks, enhance communication, and improve efficiency within educational institutions. This system consists of three main modules: Admin, Staff, and Student, each serving specific roles and functionalities.",
+			"category": "font-end",
+			"github": "",
+			"liverepo": "https://in-arch-8gtcoacfh-nasib-pvs-projects.vercel.app/",
+			"technologies": "Frontend: HTML, CSS, JavaScript (React.js and vite.js)",
+			"categoryid": 106,
+			"conclusion":"The Institute Management System aims to automate and streamline various administrative and academic processes, thereby improving efficiency, communication, and overall productivity within the educational institution. By leveraging modern technologies and a user-centric design, the system provides a seamless experience for administrators, staff, and students alike.",
+			"date": "26-08-2024",
+			"image": [
+				{
+					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/TwhZzSJx/IMG-20240403-174825.jpg"
+				}
+			],
+			"rating": {
+				"rate": 3.9,
+				"count": 120
+			}
+		},
+		{
+			"id": 4,
+			"title": "XinStore",
+			"description": "The e-commerce site built with React and Redux. This project features a responsive user interface, cart and wishlist functionalities, and is built with #html5, #css3, #react, and #react-bootstrap.",
+			"category": "",
+			"github": "https://lnkd.in/gs_HsHhV",
+			"liverepo": "https://nasibpv.github.io/xinstore-redux-/",
+			"technologies": "React,Redux,CSS,Html",
+			"categoryid": 106,
+			"date": "01-01-2001",
+			"projectScope": "",
+			"image": [
+				{
+					"photo": "https://i.postimg.cc/nhnNH6c7/Screenshot-80.png",
+					"contant":"Home page"
+				},
+				{
+					"photo": "https://i.postimg.cc/pXm08h9r/Screenshot-87.png",
+					"contant":"Category Based"
+				},
+				{
+					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png",
+					"contant":"Product"
+				},
+				{
+					"photo": "https://i.postimg.cc/QtrLYgTf/Screenshot-86.png",
+					"contant":"Cart List"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"title": "Tech Talent Learn ",
+			"description": "The Institute Management System is a comprehensive software solution designed to streamline administrative tasks, enhance communication, and improve efficiency within educational institutions. This system consists of three main modules: Admin, Staff, and Student, each serving specific roles and functionalities.",
+			"category": "font-end and back-end ",
+			"github": "",
+			"liverepo": "https://nasibpv.github.io/World-TechnoLab/",
+			"technologies": "Frontend: HTML, CSS, JavaScript (React.js) - Backend: Node.js, Express.js - Database: MongoDB",
+			"categoryid": 106,
+			"conclusion":"The Institute Management System aims to automate and streamline various administrative and academic processes, thereby improving efficiency, communication, and overall productivity within the educational institution. By leveraging modern technologies and a user-centric design, the system provides a seamless experience for administrators, staff, and students alike.",
+			"date": "01-01-2001",
+			"image": [
+				{
+					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/5yNF94GT/Screenshot-82.png"
+				},
+				{
+					"photo": "https://i.postimg.cc/TwhZzSJx/IMG-20240403-174825.jpg"
+				}
+			],
+			"rating": {
+				"rate": 3.9,
+				"count": 120
+			}
+		},
+		{
+			"id": 3,
+			"title": "South 24",
+			"description": "",
+			"category": "font-end ",
+			"github": "",
+			"liverepo": "",
+			"technologies": "HTML, CSS",
+			"categoryid": 106,
+			"conclusion": "Web site working process",
+			"date": "01-01-2001",
+			"image": [
+				{
+					"photo": "",
+					"contant":"Home page"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"title": "Emplloyee App",
+			"description": "",
+			"category": " ",
+			"github": "",
+			"liverepo": "",
+			"technologies": "",
+			"categoryid": 106,
+			"conclusion": "Web site working process",
+			"date": "01-01-2001",
+			"image": [
+				{
+					"photo": "",
+					"contant":"Home page"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "User Nest",
+			"description": "UserNest is a React project designed to manage user details through an API, providing a seamless and user-friendly experience for administrators to interact with user data",
+			"category": "font-end ",
+			"github": "https://github.com/nasibpv/usernest",
+			"liverepo": "https://nasibpv.github.io/usernest",
+			"technologies": "React.js, Api",
+			"categoryid": 106,
+			"conclusion": "UserNest provides a robust and intuitive solution for managing user details through a React project with API integration. By leveraging modern web technologies and best practices, UserNest empowers administrators to efficiently handle user data, ensuring seamless user management within their application or platform. With its customizable features and scalable architecture, UserNest can be easily adapted to meet the specific requirements of various projects and organizations.",
+			"date": "01-01-2001",
+			"image": [
+				{
+					"photo": "https://i.postimg.cc/6pNxbFmx/Screenshot-88.png",
+					"contant":"Home page"
+				},
+				{
+					"photo": "https://i.postimg.cc/B6zdTzKy/Screenshot-89.png",
+					"contant":"View All User"
+				},
+				{
+					"photo": "https://i.postimg.cc/t7QwfVDN/Screenshot-91.png",
+					"contant":"User Details"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"title": "To-Do-List",
+			"description": "",
+			"category": " ",
+			"github": "https://github.com/nasibpv/To-Do-List",
+			"liverepo": "https://nasibpv.github.io/To-Do-List/",
+			"technologies": "HTML, CSS",
+			"categoryid": 106,
+			"conclusion": "Web site working process",
+			"date": "01-01-2001",
+			"image": [
+				{
+					"photo": "",
+					"contant":"Home page"
+				}
+			]
+		}
+		,
+		{
+			"id": 7,
+			"title": "Restaurant",
+			"description": "",
+			"category": " ",
+			"github": "",
+			"liverepo": "",
+			"technologies": "",
+			"categoryid": 106,
+			"conclusion": "Web site working process",
+			"date": "01-01-2001",
+			"image": [
+				{
+					"photo": "",
+					"contant":"Home page"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"title": "Netflix",
+			"description": "",
+			"category": " ",
+			"github": "",
+			"liverepo": "",
+			"technologies": "",
+			"categoryid": 106,
+			"conclusion": "Web site working process",
+			"date": "01-01-2001",
+			"image": [
+				{
+					"photo": "",
+					"contant":"Home page"
+				}
+			]
+		},
+		{
+			"id": 9,
+			"title": "Bank App",
+			"description": "",
+			"category": " ",
+			"github": "",
+			"liverepo": "",
+			"technologies": "",
+			"categoryid": 106,
+			"conclusion": "Web site working process",
+			"date": "01-01-2001",
+			"image": [
+				{
+					"photo": "",
+					"contant":"Home page"
+				}
+			]
+		},
+		{
+			"id": 10,
+			"title": "Number Verification",
+			"description": "",
+			"category": " ",
+			"github": "https://github.com/nasibpv/number_verification",
+			"liverepo": "https://nasibpv.github.io/number_verification/",
+			"technologies": "HTML, CSS, JavaScript",
+			"categoryid": 106,
+			"conclusion": "Web site working process",
+			"date": "01-01-2001",
+			"image": [
+				{
+					"photo": "",
+					"contant":"Home page"
+				}
+			]
+		},
+		{
+			"id": 11,
+			"title": "Karak_Albahhar",
+			"description": "",
+			"category": " ",
+			"github": "https://github.com/nasibpv/Karak-Albahhhar",
+			"liverepo": "https://nasibpv.github.io/Karak-Albahhhar/",
+			"technologies": "",
+			"categoryid": 106,
+			"conclusion": "Web site working process",
+			"date": "01-01-2001",
+			"image": [
+				{
+					"photo": "",
+					"contant":"Home page"
+				}
+			]
+		},
+		{
+			"id": 12,
+			"title": "Calculator",
+			"description": "Simple calculator",
+			"category": " ",
+			"github": "https://github.com/nasibpv/calculator",
+			"liverepo": "https://nasibpv.github.io/calculator/",
+			"technologies": "HTML, CSS, JavaScript",
+			"categoryid": 106,
+			"conclusion": "Web site working process",
+			"date": "01-01-2001",
+			"image": [
+				{
+					"photo": "",
+					"contant":"Home page"
+				}
+			]
+		}
+	],
+	"experience": [
+		{
+			"name": "React",
+			"icons": "https://i.postimg.cc/yYq8LDD8/1174949-js-react-js-logo-html-html5-icon.png"
+		},
+		{
+			"name": "HTML 5",
+			"icons": "https://i.postimg.cc/RFgtNcrg/html-icon.png"
+		},
+		{
+			"name": "CSS3",
+			"icons": "https://i.postimg.cc/90zW19Dg/css-icon.png"
+		},
+		{
+			"name": "JavaScript",
+			"icons": "https://i.postimg.cc/Mpfg5Ddj/javascript-programming-language-icon.png"
+		},
+		{
+			"name": "Node.js",
+			"icons": "https://i.postimg.cc/zGwFqHfc/node-js-icon.png"
+		},
+		{
+			"name": "MongoDB",
+			"icons": "https://i.postimg.cc/PqpZPLfH/mongodb-icon.png"
+		},
+		{
+			"name": "Angular",
+			"icons": "https://i.postimg.cc/wTNQzLYD/4518980-angular-icon.png"
+		},
+		{
+			"name": "Bootstrap",
+			"icons": "https://i.postimg.cc/XJNr9p4X/bootstrap-5-logo-icon.png"
+		}
+	]
+}

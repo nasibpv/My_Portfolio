@@ -1,0 +1,41 @@
+#certificate{
+    padding: 11px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.title{
+    text-align: center;
+    padding: 17px;
+}
+
+.certificate-box{
+    height: 260px;
+    padding: 15px 9px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    overflow-x:scroll ;
+    column-gap: 15px;
+    
+}
+
+.certificate-image{
+    padding: 5px;   
+    overflow-y: hidden;    
+}
+
+.certificate-image img{
+    height: 200px;
+}
+@media screen  and (max-width:464px) {
+    .certificate-image{
+        padding: 0px;  
+        width: 80%; 
+        
+    }
+    .certificate-box{
+        column-gap: 10px;
+    }
+    
+}

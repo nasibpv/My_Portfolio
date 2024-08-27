@@ -1,7 +1,12 @@
+.home{
+    overflow-x:hidden ;
+}
 .Navbar-name{
     color: #fff;
 }
-
+.navbar{
+    background-color: rgb(94, 76, 130);
+}
 .nav-all-link{
     width: 100%;
     display: flex;
@@ -9,4 +14,44 @@
     align-items: center;
     margin: 0;
     padding: 0;
+}
+.section-content{
+    position: relative;
+    animation-fill-mode: forwards;
+}
+.section-content{
+    animation: rightThenLeft 3s ease-in-out;
+}
+.scroll-button{
+    width: 40px;
+    position: fixed;
+    bottom:35px;
+    right: 20px;
+    background-color: rgba(20, 100, 109, 0.974);
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 19px;
+}
+
+@keyframes rightThenLeft {
+    from {left:100%;}
+  to {left: 0px;}
+}
+
+.scroll-tops{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: rgb(6, 131, 177);
+    position:sticky;
+    bottom: 10px;
+    left: 87%;
 }

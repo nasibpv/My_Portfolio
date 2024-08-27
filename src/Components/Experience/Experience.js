@@ -1,24 +1,30 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Style.css'
-function Experience() {
-  return (
-    <div id='experience' className='container'> 
-           <h2 className='text-light text-center'> EXPERIENCE</h2>
+import { Link } from 'react-scroll';
+function Experience({experience}) {
+  console.log(experience);
 
-<div className='content'>
-    <div className='skill-'>
-        <img src='https://i.postimg.cc/yYq8LDD8/1174949-js-react-js-logo-react-react-native-icon.png' alt='react image'></img>
-        <h5 >React.JS</h5>
-    </div >
-    <div className='skill-'><h5 >HTML</h5></div >
-    <div className='skill-'><h5 >CSS</h5></div >
-    <div className='skill-'><h5 >Javascript</h5></div >
-    <div className='skill-'><h5 >Node.Js</h5></div >
-    <div className='skill-'><h5 >MongoBD</h5></div >
-    <div className='skill-'><h5 >Bootstrap</h5></div >
-    <div className='skill-'><h5 >Angular</h5></div >
-</div>    
-</div>
+  
+  useEffect(()=>{
+  },[])
+  return (
+    <div id='experience' className='container'>
+      <h2 className='tittle'> EXPERIENCE</h2>
+
+      <div className='content'>
+        {experience? 
+          experience?.map(item=>(
+             <Link to='/' className='skill-'>
+          <img src={item.icons} alt='react image' className='ecperience-icon'></img>
+          <h5 className='skill-name'>{item.name}</h5>
+        </Link  >
+          ))
+          :<p >data unload</p>
+        }
+       
+       
+      </div>
+    </div>
   )
 }
 
