@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App " >
       <Routes>
-        <Route path='https://my-portfolio-ivory-tau.vercel.app/'element={<Home/>} ></Route>
+        <Route path='/My_Portfolio/'element={<Home/>} ></Route>
         <Route path='/project/:id' element={<ViewProject/>}></Route>
         <Route path='/allproject' element={<Allproject/>}></Route>
       </Routes>
