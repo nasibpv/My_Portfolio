@@ -7,9 +7,7 @@ import { Link } from 'react-router-dom';
 
 function Allproject() {
   const dispatch=useDispatch()
-  const [datas,setDatas]=useState([])
-  const {dataList}=useSelector(state=>state.projects)
-    console.log(dataList);
+  const {dataList}=useSelector(state=>state?.projects)
 
   useEffect(()=>{
     dispatch(restList())
