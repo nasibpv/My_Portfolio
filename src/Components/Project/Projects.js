@@ -1,26 +1,19 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import './Style.css';
 import { Button, Col, Row } from 'react-bootstrap'
 import { Link, useNavigate } from 'react-router-dom';
 import { BiRightArrowAlt } from "react-icons/bi";
 import ImageCard from './ImageCard';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 function Projects() {
   const location=useNavigate()
-  const dispatch=useDispatch()
-  const [project, setData] = useState([])
-  // console.log(project);
-  const [ error,setError]=useState(true)
-    
-  const {dataList}=useSelector((state)=>state.projects)
-const filter =dataList?.map(item=>item)?.slice(0,3)
-const Allproject=()=>{
+  const {projects}=useSelector((state)=>state?.projects)  
+  const filter =projects?.map(item=>item)?.slice(0,3)
+  const Allproject=()=>{
   location(`/allproject`)
 }
-  useEffect(() => {
 
-  }, [])
 
   
   return (

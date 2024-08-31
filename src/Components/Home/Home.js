@@ -4,8 +4,6 @@ import AboutMe from '../AboutMe/AboutMe';
 import Contact from '../Contact/Contact';
 import Experience from '../Experience/Experience';
 import'./style.css'
-import {  useNavigate } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
 import NavBar from '../navbar/NavBar';
 import {useDispatch, useSelector,} from 'react-redux'
 import Certificate from '../Certificates/Certificate';
@@ -15,13 +13,9 @@ import PreviousProject from './PreviousProject';
 
 
 function Home() {
-  const location=useNavigate('')
   const dispatch=useDispatch()
   const [isVisible, setIsVisible] = useState(true);
 
-  const project=(e)=>{ 
-    // location(`/project/${dataList?.projects[0]?.id}`)
-  }
     const {dataList}=useSelector((state)=>state.dataReducers)
     // console.log(dataList);
 
@@ -71,10 +65,7 @@ function Home() {
     <Experience experience={dataList.experience}/>
     {/* <Certificate/> */}
     <Contact/>
-    
-    
 
-   
     </div>
   )
 }

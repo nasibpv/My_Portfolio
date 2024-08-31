@@ -1,6 +1,5 @@
 import {React} from 'react';
 import './Style.css';
-import { Button } from 'react-bootstrap';
 
 function AboutMe() {
 

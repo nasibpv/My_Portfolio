@@ -29,7 +29,7 @@
 			"description": "The civil Management System is a comprehensive software solution designed to streamline administrative tasks, enhance communication, and improve efficiency within educational institutions. This system consists of three main modules: Admin, Staff, and Student, each serving specific roles and functionalities.",
 			"category": "font-end",
 			"github": "",
-			"liverepo": "https://in-arch-8gtcoacfh-nasib-pvs-projects.vercel.app/",
+			"liverepo": "https://in-arch.vercel.app/",
 			"technologies": "Frontend: HTML, CSS, JavaScript (React.js and vite.js)",
 			"categoryid": 106,
 			"conclusion":"The Institute Management System aims to automate and streamline various administrative and academic processes, thereby improving efficiency, communication, and overall productivity within the educational institution. By leveraging modern technologies and a user-centric design, the system provides a seamless experience for administrators, staff, and students alike.",

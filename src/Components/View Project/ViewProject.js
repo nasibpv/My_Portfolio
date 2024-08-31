@@ -1,16 +1,29 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Style.css'
-import {  useParams } from 'react-router-dom';
-import { useSelector} from 'react-redux'
+import {  useNavigate, useParams } from 'react-router-dom';
+import {  useSelector} from 'react-redux'
 import { IoCloseCircleSharp } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 function ViewProject() {
   const params=useParams()
-  const {dataList}=useSelector(state=>state.projects)
-   const filter =dataList?.find(item=>item.id==params.id)
+  const navigate=useNavigate()
+  const {projects}=useSelector(state=>state.projects)
+  
+   const filter =projects?.find(item=>item.id==params.id)
 function alertFunction() {
   alert("Not Available in Live Demo")
 }
+function refreshPage(){ 
+  if(filter==''){
+        navigate('/My_Portfolio/')
+  }
+   
+}
+useEffect(()=>{
+refreshPage()
+
+},[])
   return (
     <div className='project-page' >
       <div className='style'>
@@ -23,7 +36,7 @@ function alertFunction() {
       <div className='project-navbar'>
         <div className='container nav'>
           <h3 className='nav-tittle'>Project</h3>
-          <a href='/My_Portfolio/' className='close-button'><IoCloseCircleSharp /></a>
+          <Link to={-1} className='close-button'><IoCloseCircleSharp /></Link>
         </div>
       </div>
       {filter?
@@ -94,6 +107,8 @@ function alertFunction() {
         :<p >data unload please reload</p>
       }
     </div>
+
+
   )
 }
 

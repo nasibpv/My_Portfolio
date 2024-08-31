@@ -1,6 +1,6 @@
 // import {createStore,combineReducers,applyMiddleware}from 'redux'
 import {thunk} from "redux-thunk";
-import { certificatereducer, latestProject, prodects, restreducer} from '../reducers/restReducer';
+import { certificatereducer, latestProject,projects, allProjects, restreducer} from '../reducers/restReducer';
 import { configureStore } from '@reduxjs/toolkit';
 import Projects from "./Project/Projects";
 
@@ -20,7 +20,8 @@ const reducers=configureStore({
     reducer:{
         dataReducers:restreducer,
         certificate:certificatereducer,
-        projects:prodects,
+        projects:projects,
+        allProjects:allProjects,
         latest:latestProject
         
     },

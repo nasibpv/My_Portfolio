@@ -1,12 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Style.css'
 import { Link } from 'react-scroll';
 function Experience({experience}) {
-  console.log(experience);
-
-  
-  useEffect(()=>{
-  },[])
   return (
     <div id='experience' className='container'>
       <h2 className='tittle'> EXPERIENCE</h2>
@@ -21,8 +16,6 @@ function Experience({experience}) {
           ))
           :<p >data unload</p>
         }
-       
-       
       </div>
     </div>
   )

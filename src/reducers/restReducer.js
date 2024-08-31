@@ -1,7 +1,6 @@
 import { SUCCESS,FAIL } from "../constants/restConstants";
 
 export const restreducer=(state={dataList:[]},action)=>{
-    console.log(action);
     switch(action.type){
         case SUCCESS:
             return{
@@ -18,7 +17,6 @@ export const restreducer=(state={dataList:[]},action)=>{
     }
 }
 export const certificatereducer=(state={dataList:[]},action)=>{
-    // console.log(action);
     switch(action.type){
         case SUCCESS:
             return{
@@ -34,17 +32,32 @@ export const certificatereducer=(state={dataList:[]},action)=>{
             return state
     }
 }
-export const prodects=(state={dataList:[]},action)=>{
-    console.log(action);
+export const projects=(state={projects:[]},action)=>{
     switch(action.type){
         case SUCCESS:
             return{
-                dataList:action.payload.projects
+                projects:action.payload.projects
                 
             }
         case FAIL:{
             return{
-                dataList:action.payload
+                projects:action
+            }
+        }
+        default:
+            return state
+    }
+}
+export const allProjects=(state={allProject:[]},action)=>{
+    switch(action.type){
+        case SUCCESS:
+            return{
+                allProject:action.payload.projects
+                
+            }
+        case FAIL:{
+            return{
+                allProject:action
             }
         }
         default:
@@ -52,7 +65,6 @@ export const prodects=(state={dataList:[]},action)=>{
     }
 }
 export const latestProject=(state={latests:[]},action)=>{
-    console.log(action);
     switch(action.type){
         case SUCCESS:
             return{
