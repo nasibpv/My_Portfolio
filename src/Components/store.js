@@ -1,8 +1,6 @@
 // import {createStore,combineReducers,applyMiddleware}from 'redux'
-import {thunk} from "redux-thunk";
 import { certificatereducer, latestProject,projects, allProjects, restreducer} from '../reducers/restReducer';
 import { configureStore } from '@reduxjs/toolkit';
-import Projects from "./Project/Projects";
 
 
 

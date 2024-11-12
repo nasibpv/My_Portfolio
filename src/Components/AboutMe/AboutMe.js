@@ -4,7 +4,7 @@ import './Style.css';
 function AboutMe() {
 
   return (
-    <div id='about' className='container'>
+    <div id='about' className='container mx-auto'>
       <h5 className='about-tittle'>ABOUT ME</h5>
       <div className='content'>
         <div className='right-side'>

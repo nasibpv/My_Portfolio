@@ -3,6 +3,7 @@ import '../All Project/Style.css'
 import Table from 'react-bootstrap/Table';
 import {useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
+import { IoCloseCircleSharp } from "react-icons/io5";
 
 function AllProjects() {
     const [data,setData]=useState([])
@@ -19,10 +20,10 @@ function AllProjects() {
     },[])
   return (
     <div className=''>
-    <div className='allProject-navbar'>
+    <div className='allProject-navbar '>
             <div className='container nav'>
-              <h3 className='nav-tittle'>Project</h3>
-              <a href='/My_Portfolio/'>X</a>
+              <h3 className='nav-tittle'>All Projects</h3>
+              <Link to={-1} className='close-button'><IoCloseCircleSharp /></Link>
             </div>
           </div>
     <div className='allProject'>
@@ -42,7 +43,7 @@ function AllProjects() {
                     <tr>
                       <td>{index+1}</td>
                       <td>{item?.title}</td>
-                      <td><Link  to={`/project/${item?.id}`} >View Project</Link></td>
+                      <td><Link  to={`/project/${item?.id}`} className='project_links' >View Project</Link></td>
                     </tr>
                   </tbody>
                 

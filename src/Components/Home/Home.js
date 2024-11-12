@@ -35,7 +35,6 @@ function Home() {
       }
     };
   useEffect(()=>{
-
     dispatch(restList())
  window.addEventListener('scroll', handleScroll);
     return () => {
@@ -48,14 +47,13 @@ function Home() {
    
     <NavBar/>
     
-    <div className='section-hero container' >
+    <div className='section-hero container mx-auto' >
     <div className='section p-2 pt-4'>
 <div className='section-content'>
         <h2>{dataList.name}</h2>
         <p className='section-field'>FULL STACK<br/>SOFTWARE<br/> DEVELOPER.</p>
   
 </div>      
-{/* <Button   onClick={project} > Previous Project</Button> */}
 <PreviousProject/>
     </div>
     <button onClick={handleClick} style={{ display: isVisible ? 'flex' : 'none' }} className='scroll-button'><IoIosArrowUp/></button>    
