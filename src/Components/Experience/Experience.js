@@ -8,8 +8,8 @@ function Experience({experience}) {
 
       <div className='content'>
         {experience? 
-          experience?.map(item=>(
-             <Link to='/' className='skill-'>
+          experience?.map((item,index)=>(
+             <Link to='/' className='skill-' key={index}>
           <img src={item.icons} alt='react image' className='ecperience-icon'></img>
           <h5 className='skill-name'>{item.name}</h5>
         </Link  >

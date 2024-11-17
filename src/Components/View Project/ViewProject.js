@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './Style.css'
+import '../View Project/ViewProjectStyle.css'
 import {  useNavigate, useParams } from 'react-router-dom';
 import {  useSelector} from 'react-redux'
 import { IoCloseCircleSharp } from "react-icons/io5";
@@ -36,8 +36,8 @@ refreshPage()
      </div> */}
       </div>
       <div className='project-navbar'>
-        <div className='container nav'>
-          <h3 className='nav-tittle'>Project</h3>
+        <div className='nav'>
+          <h3 className='nav-tittle '>Project</h3>
           <Link to={-1} className='close-button'><IoCloseCircleSharp /></Link>
         </div>
       </div>

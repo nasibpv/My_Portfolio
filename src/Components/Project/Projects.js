@@ -22,7 +22,7 @@ function Projects() {
 
       {
         filter?.map((item,index) => (
-          <Row className='row '>
+          <Row className='row ' key={index}>
             <Col lg='6' md='6' sm='6' className='left-side m-0'>
               <div className='left-side-content'>
                 <h2 className='project-number'>Project {index+1}</h2>

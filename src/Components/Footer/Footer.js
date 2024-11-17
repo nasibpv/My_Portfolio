@@ -8,7 +8,7 @@ function Footer() {
 
   return (
 
-    <div className='contact-footer container'>
+    <div className='contact-footer container pb-2 pt-2'>
     <div className='footer-left'>
     <h3 className='m-0 footer-tittle'></h3>
     </div>

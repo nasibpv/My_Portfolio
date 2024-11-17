@@ -6,8 +6,9 @@
 }   
 .tittle{
     text-align: center;
-    padding: 1px;
-    padding-top: 15px;
+    padding: 0px;
+    padding-top: 18px;
+    margin: 0;
 }
 .box-style{
     display: flex;
@@ -49,7 +50,7 @@
     color: #fff;
 }
 .input{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     border: none;
 }
 .contact-details{

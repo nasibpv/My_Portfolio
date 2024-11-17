@@ -14,7 +14,6 @@
 }
 .me-auto{
     display: flex;
-
     justify-content: space-around;
     padding-left: 25px;
     width: 100%;
