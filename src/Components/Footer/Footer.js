@@ -9,11 +9,11 @@ function Footer() {
   return (
 
     <div className='contact-footer container pb-2 pt-2'>
-    <div className='footer-left'>
+    {/* <div className='footer-left'>
     <h3 className='m-0 footer-tittle'></h3>
-    </div>
+    </div> */}
     <div className='footer-center'>
-      <p className='m-0 '>2024-Nasib Pv,All right reserved</p>
+      <p className='m-0'>Copyright © 2024 | All Rights Reserved | Nasib pv</p>
     </div>
     <div className='footer-right'>
       <a href='' className='footer-link'><FaFacebook /></a>
