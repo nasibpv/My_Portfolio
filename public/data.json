@@ -24,6 +24,130 @@
 	"photo": "https://i.postimg.cc/jdRBbHw3/Whats-App-Image-2024-04-03-at-12-38-34-90029b34.jpg",
 	"projects": [
 		{
+			"id": 12,
+			"title": "Quick ",
+			"description": "The Hospital Management System is a software solution aimed at optimizing the administrative and operational tasks of hospitals. The system is designed to improve communication, enhance efficiency, and provide an intuitive platform for seamless interactions between administrators, staff, and patients. The system includes three primary modules:",
+			"modules":[
+				{
+					"title":"Admin",
+					"content":"Manages hospital resources, staff details, and system settings."
+				},
+				{
+					"title":"Staff",
+					"content":"Handles patient records, appointments, and daily operations."
+				},
+				{
+					"title":"Patient",
+					"content":"Provides functionalities for appointment booking, medical record access, and updates on treatment progress."
+				}
+			],
+			"category": "font-end and back-end",
+			"github": "",
+			"liverepo": "",
+			"technologies": "Frontend: HTML, CSS, JavaScript (React.js and vite.js) Back-End: Node.js, Express, MongoDB",
+			"categoryid": 106,
+			"Project Scope":{
+				"Inclusion":[
+					{
+						"steps":"User-friendly dashboards for all modules"
+					},
+					{
+						"steps":"Appointment scheduling and management."
+					},
+					{
+						"steps":"Real-time updates on patient records."
+					},
+					{
+						"steps":"Medical resource inventory tracking."
+					},
+					{
+						"steps":"Secure login system for role-based access."
+					}
+				],
+				"Exclusions":[
+					{
+					"steps":"Advanced AI-powered diagnosis tools"
+					},
+					{
+					"steps":"Integration with external healthcare databases."
+					},
+					{
+					"steps":"Mobile app development (web-only system)."
+					}
+			]
+			},
+			"Boundaries and Limitations":[
+				{
+					"steps":"Limited scalability for small to medium-sized hospitals only."
+				},
+				{
+					"steps":"Offline functionality is unavailable; requires internet connectivity."
+				},
+				{
+					"steps":"Limited support for third-party integrations during the initial phase."
+				}
+			],
+			"Next Steps":[
+				{
+					"title":"Development Phase:",
+					"items":[
+						{
+							"steps":"Complete module designs and link frontend with backend."
+						},
+						{
+							"steps":"Integrate MongoDB for database storage."
+						}
+					]
+				},
+				{
+					"title":"Testing Phase:",
+					"items":[
+						{
+							"steps":"Test the application for bugs and performance issues."
+						},
+						{
+							"steps":"Gather user feedback and refine functionalities."
+						}
+					]
+				},
+				{
+					"title":"Deployment Phase:",
+					"items":[
+						{
+							"steps":"Deploy the application on a cloud service (e.g., AWS, Heroku)."
+						},
+						{
+							"steps":"Provide user training sessions and technical support."
+						}
+					]
+				}
+			],
+			"conclusion":"This Hospital Management System aims to modernize hospital operations by delivering a unified platform for efficient management and enhanced patient care. Through streamlined processes, this project will address many challenges faced by traditional hospital management systems.",
+			"date": "15-10-2024",
+			"image": [
+				{
+					"photo": "https://i.postimg.cc/5y5LmRft/image.png",
+					"contant":"Home page"
+				},
+				{
+					"photo": "https://i.postimg.cc/5y5LmRft/image.png",
+					"contant":"Home page"
+				},
+				{
+					"photo": "https://i.postimg.cc/5y5LmRft/image.png",
+					"contant":"Home page"
+				},
+				{
+					"photo": "https://i.postimg.cc/5y5LmRft/image.png",
+					"contant":"Home page"
+				}
+			],
+			"rating": {
+				"rate": 3.9,
+				"count": 120
+			}
+		},
+		{
 			"id": 11,
 			"title": "inArch ",
 			"description": "The civil Management System is a comprehensive software solution designed to streamline administrative tasks, enhance communication, and improve efficiency within educational institutions. This system consists of three main modules: Admin, Staff, and Student, each serving specific roles and functionalities.",

@@ -4,13 +4,16 @@
 .Navbar-name{
     color: #fff;
 }
-.Nav-link{
+.nav-link{
     color: #c5c2c2;
-    font-size: 18px;
+    padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.Nav-link:hover{
+.nav-link:hover{
     color: rgb(48, 48, 235);
+}
+.nav-all-link{
+    align-items: start;
 }
 .me-auto{
     display: flex;
