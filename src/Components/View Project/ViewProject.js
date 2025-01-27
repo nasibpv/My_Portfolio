@@ -11,7 +11,6 @@ function ViewProject() {
   const {projects}=useSelector(state=>state.projects)
   
    const filter =projects?.find(item=>item.id==params.id)
-   console.log(filter.image);
    
 function alertFunction() {
   alert("Not Available in Live Demo")

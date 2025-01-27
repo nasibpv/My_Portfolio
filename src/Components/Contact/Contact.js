@@ -54,9 +54,11 @@ function Contact() {
               Feel free to drop me a message using the form below. I'll get back to you as soon as possible.
             </p>
             <p className='contact-content'>Looking forward to connecting with you!</p>
-            <a href='tel:+918078210951' className='contact-details'>
-              <p className='icons'><IoCallSharp /></p> +918078210951
-            </a>
+           <div className=''>
+              <a href='tel:+918078210951' className='contact-details'>
+                <span className='icons'><IoCallSharp /></span> +918078210951
+              </a>
+           </div>
             <a href='mailto:nasibnpv@gmail.com' className='contact-details'>
               <span className='icons'><CiMail /></span> nasibnpv@gmail.com
             </a>

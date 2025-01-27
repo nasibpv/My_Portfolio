@@ -34,6 +34,7 @@ width: 15%;
     border-radius: 8px;
     margin-right: 5px;
     color: #fff;
+
 }
 .footer-link:hover{
     background-image: linear-gradient(to right bottom, rgba(2, 200, 255, 0.416) , rgba(87, 25, 186, 0.359));
